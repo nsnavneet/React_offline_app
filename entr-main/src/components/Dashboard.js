@@ -197,15 +197,22 @@ const Dashboard = () => {
                             <div>
                                 <h4>Form Type</h4>
                                 <select name="documentType" onChange={handleChange} value={formData.documentType}>
-                                    <option value="">Select</option>
-                                    <option value="Image">Image</option>
-                                    <option value="PDF">PDF</option>
-                                    <option value="Excel">Excel</option>
-                                    <option value="Word">Word</option>
-                                    <option value="Video">Video</option>
-                                    <option value="Audio">Audio</option>
-                                    <option value="Other">Other</option>
-                                </select>
+    <option value="">Select</option>
+    <option value="Treatment">Treatment</option>
+    <option value="Monitor Screen">Patient Monitor Screen</option>
+    <option value="Ventilator Screen">Ventilator Screen</option>
+    <option value="Discharge Summary">Discharge Summary</option>
+    <option value="Nursing Notes">Nursing Front Sheet</option>
+    <option value="Lab Investigation Report">Lab Investigation Report</option>
+    <option value="CT Head">CT Head</option>
+    <option value="CT Spinal">CT Spinal</option>
+    <option value="xray">Chest X-ray</option>
+    <option value="MRI">MRI</option>
+    <option value="ABG">ABG</option>
+    <option value="clinical">Clinical Image</option>
+    <option value="White boards">White Boards</option>
+    <option value="Other Document">Other Document</option>
+</select>
                             </div>
                             <div>
                                 <h4>Date</h4>
