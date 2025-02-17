@@ -1,0 +1,122 @@
+/* 🔹 MacOS Style Login Page */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+    --primary-blue: rgba(87, 120, 229, 0.9);
+}
+
+body {
+    /* Soft cream background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    margin: 0;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    width: 30vw;
+    height: 50vh;
+    padding: 1.5rem;
+    border-radius: 1.2rem;
+}
+
+.login-card {
+    background: var(--primary-blue);
+    /* Semi-transparent white */
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    /* Soft MacOS shadow */
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+    backdrop-filter: blur(15px);
+}
+
+h2 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 24px;
+}
+
+form {}
+
+/* ✅ Styled Input Fields */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+/* Focus Effect */
+input:focus {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.login-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ✅ MacOS Style Button */
+button {
+    background: var(--primary-blue);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 10px var(--primary-blue);
+    font-family: 'Poppins';
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+}
+
+/* Hover Effect */
+button:hover {
+    background: #fff;
+    color: var(--primary-blue);
+    box-shadow: 0px 6px 15px var(--primary-blue);
+    ;
+}
+
+/* ✅ Error Message Styling */
+.error-message {
+    color: #d9534f;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* ✅ MacOS-Like Footer Text */
+.footer {
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+

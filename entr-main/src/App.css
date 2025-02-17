@@ -1,0 +1,83 @@
+.nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1rem;
+  height: 5vh;
+}
+
+.patientDetails .actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.2rem;
+  height: 5vh;
+}
+
+.patientDetails button {
+  width: 15vw;
+}
+
+.patientDetails .actions input {
+  border: 0.5px solid #000;
+}
+
+.patientDetails .bold {
+  font-weight: 500;
+  color: #373636;
+}
+
+h4 {
+  margin: 0.1rem;
+}
+
+input {
+  border: 0.5px solid #000;
+  height: 2vh;
+  width: 10vw;
+}
+
+
+.group {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  height: 5vh;
+  margin-top: 0.5rem;
+}
+
+.group select {
+  height: 4vh;
+  border: 0.5px solid #000;
+  background: transparent;
+  width: 10vw;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  outline: none;
+  padding: 0.5rem;
+}
+
+.uploadFile {
+  margin-top: 3vh;
+}
+
+.uploadFile input {
+  margin-top: 0.5rem;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container input {
+  width: 17vw;
+}
